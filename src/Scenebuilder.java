@@ -27,7 +27,7 @@ public class Scenebuilder extends Application {
     @Override
     public void start(Stage stage) throws IOException  {
  
-           Parent root = FXMLLoader.load(getClass().getResource("FXML.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("FXML.fxml"));
            
         
         stage.setScene(new Scene(root));
